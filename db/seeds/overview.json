@@ -1,0 +1,1147 @@
+{
+  "pgatePath": "overview/inrunning/transitions",
+  "sports": [
+    {
+      "id": 100,
+      "epId": 240,
+      "desc": "Football",
+      "pos": 1,
+      "ne": 100,
+      "eic": 25,
+      "v": false,
+      "mc": false,
+      "ncmc": 2,
+      "nemc": 1,
+      "hasInplayEvents": true,
+      "hasUpcomingEvents": true,
+      "marketTypes": [
+        {
+          "mtId": 1,
+          "pos": 2,
+          "desc": "Match Betting",
+          "mtDesc": "Match Betting",
+          "couponName": "template_a",
+          "headers": [
+            "1",
+            "X",
+            "2"
+          ],
+          "periods": [
+            {
+              "desc": "Match",
+              "longDesc": "Match extended1",
+              "pIds": [
+                100,
+                101,
+                956
+              ],
+              "config": {
+                "filter": "ALL"
+              }
+            }
+          ]
+        },
+        {
+          "mtId": 2713,
+          "pos": 3,
+          "desc": "Total Goals - Over/Under",
+          "mtDesc": "Total Goals - Over/Under",
+          "couponName": "template_b1",
+          "headers": [
+            "Under",
+            "Over"
+          ],
+          "periods": [
+            {
+              "desc": "Match",
+              "longDesc": "Match Extended",
+              "pIds": [
+                232,
+                233,
+                954,
+                100,
+                101,
+                956
+              ],
+              "config": {
+                "filter": "ALL"
+              }
+            },
+            {
+              "desc": "1st Half",
+              "longDesc": "First Half",
+              "pIds": [
+                234
+              ],
+              "config": {
+                "filter": ""
+              }
+            },
+            {
+              "desc": "2nd Half",
+              "longDesc": "Second Half",
+              "pIds": [
+                235
+              ],
+              "config": {
+                "filter": ""
+              }
+            }
+          ]
+        },
+        {
+          "mtId": 350,
+          "pos": 4,
+          "desc": "Both Teams to Score ",
+          "mtDesc": "Both Teams to Score",
+          "couponName": "template_b",
+          "headers": [
+            "No",
+            "Yes"
+          ],
+          "periods": [
+            {
+              "desc": "Match",
+              "longDesc": "Match Extended",
+              "pIds": [
+                232,
+                233,
+                954,
+                100,
+                101,
+                956
+              ],
+              "config": {
+                "filter": "ALL"
+              }
+            }
+          ]
+        },
+        {
+          "mtId": 100322,
+          "pos": 5,
+          "desc": "To Win And Both Teams To Score ",
+          "mtDesc": "To Win And Both Teams To Score",
+          "couponName": "template_a",
+          "headers": [
+            "1",
+            "X",
+            "2"
+          ],
+          "periods": [
+            {
+              "desc": "Match",
+              "longDesc": "Match Extended",
+              "pIds": [
+                232,
+                233,
+                954,
+                100,
+                101,
+                956
+              ],
+              "config": {
+                "filter": "ALL"
+              }
+            }
+          ]
+        },
+        {
+          "mtId": 571,
+          "pos": 6,
+          "desc": "Draw No Bet",
+          "mtDesc": "Draw No Bet",
+          "couponName": "template_b",
+          "headers": [
+            "1",
+            "2"
+          ],
+          "periods": [
+            {
+              "desc": "Match",
+              "longDesc": "Match Extended",
+              "pIds": [
+                232,
+                233,
+                954,
+                100,
+                101,
+                956
+              ],
+              "config": {
+                "filter": "ALL"
+              }
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "id": 23043810,
+          "desc": "TUR 1.Lig",
+          "pos": 54,
+          "events": [
+            {
+              "id": 1138134300,
+              "event_type": "GAME_EVENT",
+              "event_path_id": 464321610,
+              "sport_id": 100,
+              "desc": "Osmanlispor v Akhisar Belediye",
+              "oppADesc": "Osmanlispor",
+              "oppAId": 5438000,
+              "oppBDesc": "Akhisar Belediye",
+              "oppBId": 14945500,
+              "time": 1572278400000,
+              "pos": 9999,
+              "has_stream": false,
+              "scoreboard": {
+                "eId": 1138134300,
+                "sId": 100,
+                "clk": "42:58",
+                "dsc": "1H",
+                "oaId": 5438000,
+                "obId": 14945500,
+                "code": 234,
+                "periodKey": "H1",
+                "sTs": 1572278400000,
+                "cal": true,
+                "run": true,
+                "act": 14945500,
+                "scrA": 1,
+                "scrB": 0,
+                "addresses": {
+                  "comment": "/scoreboard/board/1138134300/comments/en_GB",
+                  "essentialScoreboard": "/essentialscoreboard/100/1138134300",
+                  "essentialScoreboardCallback": "/c/essentialscoreboard/100/1138134300",
+                  "stats": "/scoreboard/board/1138134300/stats",
+                  "timeline": "/scoreboard/board/1138134300/timeline",
+                  "overviewComment": "/scoreboard/board/1138134300/overview/comments/en_GB"
+                },
+                "disabledScoreboard": false,
+                "reversedClock": false,
+                "preeventPeriodDescription": "",
+                "inPlay": true,
+                "scr": "1-0",
+                "penaltyShootout": {},
+                "penaltiesScrA": 0,
+                "penaltiesScrB": 0,
+                "stoppageTime": "",
+                "marketSuspensionReason": "",
+                "redCardA": 0,
+                "redCardB": 0
+              },
+              "markets": [
+                {
+                  "id": 162128503,
+                  "desc": "Match Betting",
+                  "eid": 1138134300,
+                  "pid": 100,
+                  "ptd": 1,
+                  "ptdesc": "Win only",
+                  "st": 1,
+                  "mblindex": 157391938,
+                  "cur": true,
+                  "next": false,
+                  "mtid": 1,
+                  "p": "90 Mins",
+                  "o": [
+                    {
+                      "oid": 71948690700,
+                      "d": "Draw",
+                      "sd": null,
+                      "cpid": 524540075890,
+                      "pr": "12/5",
+                      "prd": 3.4,
+                      "fdp": "3.4",
+                      "h": false,
+                      "po": 2
+                    },
+                    {
+                      "oid": 71948690000,
+                      "d": "Akhisar Belediye",
+                      "sd": null,
+                      "cpid": 524540088638,
+                      "pr": "9/2",
+                      "prd": 5.5,
+                      "fdp": "5.5",
+                      "h": false,
+                      "po": 3
+                    },
+                    {
+                      "oid": 71948689300,
+                      "d": "Osmanlispor",
+                      "sd": null,
+                      "cpid": 524540073720,
+                      "pr": "13/20",
+                      "prd": 1.65,
+                      "fdp": "1.65",
+                      "h": false,
+                      "po": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 63344210,
+          "desc": "ROM Divizia B",
+          "pos": 67,
+          "events": [
+            {
+              "id": 1138992100,
+              "event_type": "GAME_EVENT",
+              "event_path_id": 464746410,
+              "sport_id": 100,
+              "desc": "Arges Pitesti v Gloria Buzau",
+              "oppADesc": "Arges Pitesti",
+              "oppAId": 6053800,
+              "oppBDesc": "Gloria",
+              "oppBId": 6186800,
+              "time": 1572278400000,
+              "pos": 9999,
+              "has_stream": false,
+              "scoreboard": {
+                "eId": 1138992100,
+                "sId": 100,
+                "clk": "41:51",
+                "dsc": "1H",
+                "oaId": 6053800,
+                "obId": 6186800,
+                "code": 234,
+                "periodKey": "H1",
+                "sTs": 1572278400000,
+                "cal": true,
+                "run": true,
+                "act": 6186800,
+                "scrA": 1,
+                "scrB": 0,
+                "addresses": {
+                  "comment": "/scoreboard/board/1138992100/comments/en_GB",
+                  "essentialScoreboard": "/essentialscoreboard/100/1138992100",
+                  "essentialScoreboardCallback": "/c/essentialscoreboard/100/1138992100",
+                  "stats": "/scoreboard/board/1138992100/stats",
+                  "timeline": "/scoreboard/board/1138992100/timeline",
+                  "overviewComment": "/scoreboard/board/1138992100/overview/comments/en_GB"
+                },
+                "disabledScoreboard": false,
+                "reversedClock": false,
+                "preeventPeriodDescription": "",
+                "inPlay": true,
+                "scr": "1-0",
+                "penaltyShootout": {},
+                "penaltiesScrA": 0,
+                "penaltiesScrB": 0,
+                "stoppageTime": "",
+                "marketSuspensionReason": "",
+                "redCardA": 0,
+                "redCardB": 0
+              },
+              "markets": [
+                {
+                  "id": 162413372,
+                  "desc": "Match Betting",
+                  "eid": 1138992100,
+                  "pid": 100,
+                  "ptd": 1,
+                  "ptdesc": "Win only",
+                  "st": 1,
+                  "mblindex": 274388208,
+                  "cur": true,
+                  "next": false,
+                  "mtid": 1,
+                  "p": "90 Mins",
+                  "o": [
+                    {
+                      "oid": 72061959000,
+                      "d": "Arges Pitesti",
+                      "sd": null,
+                      "cpid": 524540083537,
+                      "pr": "2/5",
+                      "prd": 1.4,
+                      "fdp": "1.4",
+                      "h": false,
+                      "po": 1
+                    },
+                    {
+                      "oid": 72061959600,
+                      "d": "Draw",
+                      "sd": null,
+                      "cpid": 524540083535,
+                      "pr": "13/5",
+                      "prd": 3.6,
+                      "fdp": "3.6",
+                      "h": false,
+                      "po": 2
+                    },
+                    {
+                      "oid": 72061959300,
+                      "d": "Gloria Buzau",
+                      "sd": null,
+                      "cpid": 524540083536,
+                      "pr": "7/1",
+                      "prd": 8.0,
+                      "fdp": "8.0",
+                      "h": false,
+                      "po": 3
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 42835210,
+          "desc": "ISR Liga Alef",
+          "pos": 168,
+          "events": [
+            {
+              "id": 1138998300,
+              "event_type": "GAME_EVENT",
+              "event_path_id": 464749910,
+              "sport_id": 100,
+              "desc": "Ms Daburiyya Osama v Ironi Tiberia",
+              "oppADesc": "Ms Daburiyya Osama",
+              "oppAId": 270319200,
+              "oppBDesc": "Ironi Tiberia",
+              "oppBId": 21261300,
+              "time": 1572280200000,
+              "pos": 9999,
+              "has_stream": false,
+              "scoreboard": {
+                "eId": 1138998300,
+                "sId": 100,
+                "clk": "11:46",
+                "dsc": "1H",
+                "oaId": 270319200,
+                "obId": 21261300,
+                "code": 234,
+                "periodKey": "H1",
+                "sTs": 1572280200000,
+                "cal": true,
+                "run": true,
+                "act": 270319200,
+                "scrA": 0,
+                "scrB": 0,
+                "addresses": {
+                  "comment": "/scoreboard/board/1138998300/comments/en_GB",
+                  "essentialScoreboard": "/essentialscoreboard/100/1138998300",
+                  "essentialScoreboardCallback": "/c/essentialscoreboard/100/1138998300",
+                  "stats": "/scoreboard/board/1138998300/stats",
+                  "timeline": "/scoreboard/board/1138998300/timeline",
+                  "overviewComment": "/scoreboard/board/1138998300/overview/comments/en_GB"
+                },
+                "disabledScoreboard": false,
+                "reversedClock": false,
+                "preeventPeriodDescription": "",
+                "inPlay": true,
+                "scr": "0-0",
+                "penaltyShootout": {},
+                "penaltiesScrA": 0,
+                "penaltiesScrB": 0,
+                "stoppageTime": "",
+                "marketSuspensionReason": "",
+                "redCardA": 0,
+                "redCardB": 0
+              },
+              "markets": []
+            }
+          ]
+        },
+        {
+          "id": 67677310,
+          "desc": "GRE Football League",
+          "pos": 276,
+          "events": [
+            {
+              "id": 1138589000,
+              "event_type": "GAME_EVENT",
+              "event_path_id": 422061810,
+              "sport_id": 100,
+              "desc": "Ergotelis v Platanias",
+              "oppADesc": "Ergotelis",
+              "oppAId": 4392100,
+              "oppBDesc": "Platanias",
+              "oppBId": 15495200,
+              "time": 1572274800000,
+              "pos": 9999,
+              "has_stream": false,
+              "scoreboard": {
+                "eId": 1138589000,
+                "sId": 100,
+                "clk": "85:00",
+                "dsc": "2H",
+                "oaId": 4392100,
+                "obId": 15495200,
+                "code": 235,
+                "periodKey": "H2",
+                "sTs": 1572274800000,
+                "cal": true,
+                "run": true,
+                "act": 4392100,
+                "scrA": 1,
+                "scrB": 1,
+                "addresses": {
+                  "comment": "/scoreboard/board/1138589000/comments/en_GB",
+                  "essentialScoreboard": "/essentialscoreboard/100/1138589000",
+                  "essentialScoreboardCallback": "/c/essentialscoreboard/100/1138589000",
+                  "stats": "/scoreboard/board/1138589000/stats",
+                  "timeline": "/scoreboard/board/1138589000/timeline",
+                  "overviewComment": "/scoreboard/board/1138589000/overview/comments/en_GB"
+                },
+                "disabledScoreboard": false,
+                "reversedClock": false,
+                "preeventPeriodDescription": "",
+                "inPlay": true,
+                "scr": "1-1",
+                "penaltyShootout": {},
+                "penaltiesScrA": 0,
+                "penaltiesScrB": 0,
+                "stoppageTime": "",
+                "marketSuspensionReason": "",
+                "redCardA": 0,
+                "redCardB": 0
+              },
+              "markets": [
+                {
+                  "id": 162293003,
+                  "desc": "Match Betting",
+                  "eid": 1138589000,
+                  "pid": 100,
+                  "ptd": 1,
+                  "ptdesc": "Win only",
+                  "st": 1,
+                  "mblindex": 321403602,
+                  "cur": true,
+                  "next": false,
+                  "mtid": 1,
+                  "p": "90 Mins",
+                  "o": [
+                    {
+                      "oid": 72010530200,
+                      "d": "Ergotelis",
+                      "sd": null,
+                      "cpid": 524540087204,
+                      "pr": "7/1",
+                      "prd": 8.0,
+                      "fdp": "8.0",
+                      "h": false,
+                      "po": 1
+                    },
+                    {
+                      "oid": 72010530300,
+                      "d": "Draw",
+                      "sd": null,
+                      "cpid": 524540088078,
+                      "pr": "2/11",
+                      "prd": 1.182,
+                      "fdp": "1.182",
+                      "h": false,
+                      "po": 2
+                    },
+                    {
+                      "oid": 72010530400,
+                      "d": "Platanias",
+                      "sd": null,
+                      "cpid": 524540088079,
+                      "pr": "7/1",
+                      "prd": 8.0,
+                      "fdp": "8.0",
+                      "h": false,
+                      "po": 3
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 40141010,
+          "desc": "OMA Oman Premier League",
+          "pos": 380,
+          "events": [
+            {
+              "id": 1138992000,
+              "event_type": "GAME_EVENT",
+              "event_path_id": 57820010,
+              "sport_id": 100,
+              "desc": "Fanja FC v Al-Oruba",
+              "oppADesc": "Fanja FC",
+              "oppAId": 25834300,
+              "oppBDesc": "Al-Oruba",
+              "oppBId": 18457200,
+              "time": 1572275400000,
+              "pos": 9999,
+              "has_stream": false,
+              "scoreboard": {
+                "eId": 1138992000,
+                "sId": 100,
+                "clk": "76:56",
+                "dsc": "2H",
+                "oaId": 25834300,
+                "obId": 18457200,
+                "code": 235,
+                "periodKey": "H2",
+                "sTs": 1572275400000,
+                "cal": true,
+                "run": true,
+                "act": 18457200,
+                "scrA": 2,
+                "scrB": 1,
+                "addresses": {
+                  "comment": "/scoreboard/board/1138992000/comments/en_GB",
+                  "essentialScoreboard": "/essentialscoreboard/100/1138992000",
+                  "essentialScoreboardCallback": "/c/essentialscoreboard/100/1138992000",
+                  "stats": "/scoreboard/board/1138992000/stats",
+                  "timeline": "/scoreboard/board/1138992000/timeline",
+                  "overviewComment": "/scoreboard/board/1138992000/overview/comments/en_GB"
+                },
+                "disabledScoreboard": false,
+                "reversedClock": false,
+                "preeventPeriodDescription": "",
+                "inPlay": true,
+                "scr": "2-1",
+                "penaltyShootout": {},
+                "penaltiesScrA": 0,
+                "penaltiesScrB": 0,
+                "stoppageTime": "",
+                "marketSuspensionReason": "",
+                "redCardA": 0,
+                "redCardB": 0
+              },
+              "markets": [
+                {
+                  "id": 162413350,
+                  "desc": "Match Betting",
+                  "eid": 1138992000,
+                  "pid": 100,
+                  "ptd": 1,
+                  "ptdesc": "Win only",
+                  "st": 1,
+                  "mblindex": 1084730198,
+                  "cur": true,
+                  "next": false,
+                  "mtid": 1,
+                  "p": "90 Mins",
+                  "o": [
+                    {
+                      "oid": 72061961400,
+                      "d": "Fanja FC",
+                      "sd": null,
+                      "cpid": 524540088913,
+                      "pr": "1/9",
+                      "prd": 1.111,
+                      "fdp": "1.111",
+                      "h": false,
+                      "po": 1
+                    },
+                    {
+                      "oid": 72061962200,
+                      "d": "Al-Oruba",
+                      "sd": null,
+                      "cpid": 524540088912,
+                      "pr": "25/1",
+                      "prd": 26.0,
+                      "fdp": "26.0",
+                      "h": false,
+                      "po": 3
+                    },
+                    {
+                      "oid": 72061962700,
+                      "d": "Draw",
+                      "sd": null,
+                      "cpid": 524540088911,
+                      "pr": "9/2",
+                      "prd": 5.5,
+                      "fdp": "5.5",
+                      "h": false,
+                      "po": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1138992200,
+              "event_type": "GAME_EVENT",
+              "event_path_id": 407284310,
+              "sport_id": 100,
+              "desc": "Al Nasr (OMA) v Mirbat SC",
+              "oppADesc": "Al Nasr (OMA)",
+              "oppAId": 271025300,
+              "oppBDesc": "Mirbat SC",
+              "oppBId": 286786600,
+              "time": 1572275400000,
+              "pos": 9999,
+              "has_stream": false,
+              "scoreboard": {
+                "eId": 1138992200,
+                "sId": 100,
+                "clk": "73:41",
+                "dsc": "2H",
+                "oaId": 271025300,
+                "obId": 286786600,
+                "code": 235,
+                "periodKey": "H2",
+                "sTs": 1572275400000,
+                "cal": true,
+                "run": true,
+                "act": 271025300,
+                "scrA": 2,
+                "scrB": 2,
+                "addresses": {
+                  "comment": "/scoreboard/board/1138992200/comments/en_GB",
+                  "essentialScoreboard": "/essentialscoreboard/100/1138992200",
+                  "essentialScoreboardCallback": "/c/essentialscoreboard/100/1138992200",
+                  "stats": "/scoreboard/board/1138992200/stats",
+                  "timeline": "/scoreboard/board/1138992200/timeline",
+                  "overviewComment": "/scoreboard/board/1138992200/overview/comments/en_GB"
+                },
+                "disabledScoreboard": false,
+                "reversedClock": false,
+                "preeventPeriodDescription": "",
+                "inPlay": true,
+                "scr": "2-2",
+                "penaltyShootout": {},
+                "penaltiesScrA": 0,
+                "penaltiesScrB": 0,
+                "stoppageTime": "",
+                "marketSuspensionReason": "",
+                "redCardA": 0,
+                "redCardB": 0
+              },
+              "markets": [
+                {
+                  "id": 162413381,
+                  "desc": "Match Betting",
+                  "eid": 1138992200,
+                  "pid": 100,
+                  "ptd": 1,
+                  "ptdesc": "Win only",
+                  "st": 1,
+                  "mblindex": 145735682,
+                  "cur": true,
+                  "next": false,
+                  "mtid": 1,
+                  "p": "90 Mins",
+                  "o": [
+                    {
+                      "oid": 72061972200,
+                      "d": "Mirbat SC",
+                      "sd": null,
+                      "cpid": 524540088495,
+                      "pr": "21/5",
+                      "prd": 5.2,
+                      "fdp": "5.2",
+                      "h": false,
+                      "po": 3
+                    },
+                    {
+                      "oid": 72061971100,
+                      "d": "Al Nasr (OMA)",
+                      "sd": null,
+                      "cpid": 524540088497,
+                      "pr": "21/10",
+                      "prd": 3.1,
+                      "fdp": "3.1",
+                      "h": false,
+                      "po": 1
+                    },
+                    {
+                      "oid": 72061972900,
+                      "d": "Draw",
+                      "sd": null,
+                      "cpid": 524540088493,
+                      "pr": "13/20",
+                      "prd": 1.65,
+                      "fdp": "1.65",
+                      "h": false,
+                      "po": 2
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 31253010,
+          "desc": "AZE Premyer Liqasi",
+          "pos": 402,
+          "events": [
+            {
+              "id": 1138997100,
+              "event_type": "GAME_EVENT",
+              "event_path_id": 403447010,
+              "sport_id": 100,
+              "desc": "Qarabag FK v Sabail",
+              "oppADesc": "FK Qarabag",
+              "oppAId": 7105500,
+              "oppBDesc": "Sabail",
+              "oppBId": 286377400,
+              "time": 1572274800000,
+              "pos": 9999,
+              "has_stream": false,
+              "scoreboard": {
+                "eId": 1138997100,
+                "sId": 100,
+                "clk": "87:23",
+                "dsc": "2H",
+                "oaId": 7105500,
+                "obId": 286377400,
+                "code": 235,
+                "periodKey": "H2",
+                "sTs": 1572274800000,
+                "cal": true,
+                "run": true,
+                "act": 7105500,
+                "scrA": 1,
+                "scrB": 0,
+                "addresses": {
+                  "comment": "/scoreboard/board/1138997100/comments/en_GB",
+                  "essentialScoreboard": "/essentialscoreboard/100/1138997100",
+                  "essentialScoreboardCallback": "/c/essentialscoreboard/100/1138997100",
+                  "stats": "/scoreboard/board/1138997100/stats",
+                  "timeline": "/scoreboard/board/1138997100/timeline",
+                  "overviewComment": "/scoreboard/board/1138997100/overview/comments/en_GB"
+                },
+                "disabledScoreboard": false,
+                "reversedClock": false,
+                "preeventPeriodDescription": "",
+                "inPlay": true,
+                "scr": "1-0",
+                "penaltyShootout": {},
+                "penaltiesScrA": 0,
+                "penaltiesScrB": 0,
+                "stoppageTime": "",
+                "marketSuspensionReason": "",
+                "redCardA": 0,
+                "redCardB": 0
+              },
+              "markets": [
+                {
+                  "id": 162416135,
+                  "desc": "Match Betting",
+                  "eid": 1138997100,
+                  "pid": 100,
+                  "ptd": 1,
+                  "ptdesc": "Win only",
+                  "st": 1,
+                  "mblindex": 733229912,
+                  "cur": true,
+                  "next": false,
+                  "mtid": 1,
+                  "p": "90 Mins",
+                  "o": [
+                    {
+                      "oid": 72064118200,
+                      "d": "Qarabag FK",
+                      "sd": null,
+                      "cpid": 524540089579,
+                      "pr": "1/66",
+                      "prd": 1.015,
+                      "fdp": "1.015",
+                      "h": false,
+                      "po": 1
+                    },
+                    {
+                      "oid": 72064118300,
+                      "d": "Sabail",
+                      "sd": null,
+                      "cpid": 524540086427,
+                      "pr": "110/1",
+                      "prd": 111.0,
+                      "fdp": "111.0",
+                      "h": false,
+                      "po": 3
+                    },
+                    {
+                      "oid": 72064118400,
+                      "d": "Draw",
+                      "sd": null,
+                      "cpid": 524540089577,
+                      "pr": "7/1",
+                      "prd": 8.0,
+                      "fdp": "8.0",
+                      "h": false,
+                      "po": 2
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 345765310,
+          "desc": "Arab Club Championship",
+          "pos": 566,
+          "events": [
+            {
+              "id": 1139331400,
+              "event_type": "GAME_EVENT",
+              "event_path_id": 464917810,
+              "sport_id": 100,
+              "desc": "Al Shabab Riyadh v Shabab Al Ordun",
+              "oppADesc": "Al Shabab Riyadh",
+              "oppAId": 187539000,
+              "oppBDesc": "Shabab Al Ordun",
+              "oppBId": 6112900,
+              "time": 1572279300000,
+              "pos": 9999,
+              "has_stream": false,
+              "scoreboard": {
+                "eId": 1139331400,
+                "sId": 100,
+                "clk": "28:18",
+                "dsc": "1H",
+                "oaId": 187539000,
+                "obId": 6112900,
+                "code": 234,
+                "periodKey": "H1",
+                "sTs": 1572279300000,
+                "cal": true,
+                "run": true,
+                "act": 187539000,
+                "scrA": 0,
+                "scrB": 0,
+                "addresses": {
+                  "comment": "/scoreboard/board/1139331400/comments/en_GB",
+                  "essentialScoreboard": "/essentialscoreboard/100/1139331400",
+                  "essentialScoreboardCallback": "/c/essentialscoreboard/100/1139331400",
+                  "stats": "/scoreboard/board/1139331400/stats",
+                  "timeline": "/scoreboard/board/1139331400/timeline",
+                  "overviewComment": "/scoreboard/board/1139331400/overview/comments/en_GB"
+                },
+                "disabledScoreboard": false,
+                "reversedClock": false,
+                "preeventPeriodDescription": "",
+                "inPlay": true,
+                "scr": "0-0",
+                "penaltyShootout": {},
+                "penaltiesScrA": 0,
+                "penaltiesScrB": 0,
+                "stoppageTime": "",
+                "marketSuspensionReason": "",
+                "redCardA": 0,
+                "redCardB": 0
+              },
+              "markets": [
+                {
+                  "id": 162458782,
+                  "desc": "Match Betting",
+                  "eid": 1139331400,
+                  "pid": 100,
+                  "ptd": 1,
+                  "ptdesc": "Win only",
+                  "st": 1,
+                  "mblindex": 275914383,
+                  "cur": true,
+                  "next": false,
+                  "mtid": 1,
+                  "p": "90 Mins",
+                  "o": [
+                    {
+                      "oid": 72091304700,
+                      "d": "Al Shabab Riyadh",
+                      "sd": null,
+                      "cpid": 524540086652,
+                      "pr": "4/9",
+                      "prd": 1.444,
+                      "fdp": "1.444",
+                      "h": false,
+                      "po": 1
+                    },
+                    {
+                      "oid": 72091304800,
+                      "d": "Shabab Al Ordun",
+                      "sd": null,
+                      "cpid": 524540086649,
+                      "pr": "7/1",
+                      "prd": 8.0,
+                      "fdp": "8.0",
+                      "h": false,
+                      "po": 3
+                    },
+                    {
+                      "oid": 72091304900,
+                      "d": "Draw",
+                      "sd": null,
+                      "cpid": 524540089602,
+                      "pr": "23/10",
+                      "prd": 3.3,
+                      "fdp": "3.3",
+                      "h": false,
+                      "po": 2
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 600,
+      "epId": 239,
+      "desc": "Tennis",
+      "pos": 2,
+      "ne": 50,
+      "eic": 20,
+      "v": false,
+      "mc": true,
+      "ncmc": 2,
+      "nemc": 2,
+      "hasInplayEvents": true,
+      "hasUpcomingEvents": true,
+      "marketTypes": [],
+      "comp": []
+    },
+    {
+      "id": 601600,
+      "epId": 227,
+      "desc": "Basketball",
+      "pos": 4,
+      "ne": 50,
+      "eic": 10,
+      "v": false,
+      "mc": false,
+      "ncmc": 1,
+      "nemc": 3,
+      "hasInplayEvents": true,
+      "hasUpcomingEvents": true,
+      "marketTypes": [],
+      "comp": []
+    },
+    {
+      "id": 2100,
+      "epId": 2100,
+      "desc": "Ice Hockey",
+      "pos": 12,
+      "ne": 50,
+      "eic": 25,
+      "v": false,
+      "mc": false,
+      "ncmc": 1,
+      "nemc": 2,
+      "hasInplayEvents": true,
+      "hasUpcomingEvents": true,
+      "marketTypes": [],
+      "comp": []
+    },
+    {
+      "id": 1200,
+      "epId": 1200,
+      "desc": "Volleyball",
+      "pos": 15,
+      "ne": 50,
+      "eic": 25,
+      "v": false,
+      "mc": false,
+      "ncmc": 1,
+      "nemc": 1,
+      "hasInplayEvents": true,
+      "hasUpcomingEvents": true,
+      "marketTypes": [],
+      "comp": []
+    },
+    {
+      "id": 950,
+      "epId": 950,
+      "desc": "Squash",
+      "pos": 38,
+      "ne": 50,
+      "eic": 50,
+      "v": false,
+      "mc": null,
+      "ncmc": 3,
+      "nemc": 3,
+      "hasInplayEvents": true,
+      "hasUpcomingEvents": false,
+      "marketTypes": [],
+      "comp": []
+    },
+    {
+      "id": 1041200,
+      "epId": 431839110,
+      "desc": "eSports Counter-Strike",
+      "pos": 99,
+      "ne": 3,
+      "eic": 3,
+      "v": false,
+      "mc": null,
+      "ncmc": 1,
+      "nemc": 1,
+      "hasInplayEvents": true,
+      "hasUpcomingEvents": true,
+      "marketTypes": [],
+      "comp": []
+    },
+    {
+      "id": 1041300,
+      "epId": 431839210,
+      "desc": "eSports DOTA 2",
+      "pos": 101,
+      "ne": 3,
+      "eic": 3,
+      "v": false,
+      "mc": false,
+      "ncmc": 1,
+      "nemc": 1,
+      "hasInplayEvents": true,
+      "hasUpcomingEvents": false,
+      "marketTypes": [],
+      "comp": []
+    }
+  ],
+  "slider_elements": [
+    {
+      "id": 100,
+      "type": "Sport",
+      "desc": "Football",
+      "slug": null
+    },
+    {
+      "id": 600,
+      "type": "Sport",
+      "desc": "Tennis",
+      "slug": null
+    },
+    {
+      "id": 601600,
+      "type": "Sport",
+      "desc": "Basketball",
+      "slug": null
+    },
+    {
+      "id": 2100,
+      "type": "Sport",
+      "desc": "Ice Hockey",
+      "slug": null
+    },
+    {
+      "id": 1200,
+      "type": "Sport",
+      "desc": "Volleyball",
+      "slug": null
+    },
+    {
+      "id": 950,
+      "type": "Sport",
+      "desc": "Squash",
+      "slug": null
+    },
+    {
+      "id": 3,
+      "type": "SportGroup",
+      "desc": "eSports",
+      "slug": "esports"
+    }
+  ],
+  "total_number_of_events": 53,
+  "total_number_of_streamable_events": 0
+}
